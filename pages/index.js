@@ -7,7 +7,6 @@ import Skills from '../components/Skills'
 import Blog from '../components/Blog'
 import Blog2 from '../components/Blog2'
 import Blog3 from '../components/Blog3'
-import Blog4 from '../components/Blog4'
 import Contact2 from '../components/Contact2'
 import Timeline from '@/components/Timeline'
 import Test1 from '@/components/Test1'
@@ -29,7 +28,6 @@ export default function Home() {
     {/* <Test1 /> */}
     {/* <Blog2 /> */}
     <Blog3 />
-    {/* <Blog4 /> */}
     
     {/* <Timeline /> */}
     <Projects />
