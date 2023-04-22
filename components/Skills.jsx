@@ -9,6 +9,15 @@ import Github from "../public/assets/skills/github1.png";
 import Firebase from "../public/assets/skills/firebase.png";
 import NextJS from "../public/assets/skills/nextjs.png";
 import AWS from "../public/assets/skills/aws.png";
+import Python from "../public/assets/skills/python.png";
+import Django from "../public/assets/skills/django.png";
+import Flask from "../public/assets/skills/flask.png";
+import FastAPI from "../public/assets/skills/fastapi.png";
+import Postgres from "../public/assets/skills/postgres2.png";
+import Mongo from "../public/assets/skills/mongo.png";
+import Redis from "../public/assets/skills/redis.png";
+import Docker from "../public/assets/skills/docker2.png";
+
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const Skills = () => {
@@ -27,15 +36,16 @@ const Skills = () => {
                                     Frontend Technologies
                                 </h2>
                                 <p className="text-base text-gray-700 md:text-lg">
-                                    Sed ut perspiciatis unde omnis iste natus
-                                    error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa
-                                    quae. explicabo.
+                                    These are the frontend technologies that I have experience working with to streamline my development workflow.
                                 </p>
                             </div>
                             <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
                                 <div className="p-2">
                                     <div className="grid grid-cols-3 md:grid-cols-1">
+                                        <p className="text-gray-600 py-2 flex items-center">
+                                            <RiRadioButtonFill className="pr-1" />{" "}
+                                            Javascript
+                                        </p>
                                         <p className="text-gray-600 py-2 flex items-center">
                                             <RiRadioButtonFill className="pr-1" />{" "}
                                             React
@@ -44,23 +54,12 @@ const Skills = () => {
                                             <RiRadioButtonFill className="pr-1" />{" "}
                                             Tailwind
                                         </p>
+                                        <p className="text-gray-600 py-2 flex items-center">
+                                            <RiRadioButtonFill className="pr-1" />{" "}
+                                            NextJS
+                                        </p>
                                         
-                                        <p className="text-gray-600 py-2 flex items-center">
-                                            <RiRadioButtonFill className="pr-1" />{" "}
-                                            Javascript
-                                        </p>
-                                        <p className="text-gray-600 py-2 flex items-center">
-                                            <RiRadioButtonFill className="pr-1" />{" "}
-                                            Firebase
-                                        </p>
-                                        <p className="text-gray-600 py-2 flex items-center">
-                                            <RiRadioButtonFill className="pr-1" />{" "}
-                                            Google API
-                                        </p>
-                                        <p className="text-gray-600 py-2 flex items-center">
-                                            <RiRadioButtonFill className="pr-1" />{" "}
-                                            Zillow API
-                                        </p>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -139,36 +138,6 @@ const Skills = () => {
                                         </div>
                                         <div className="flex flex-col items-center justify-center">
                                             <h3>Tailwind</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-                                    <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                                        <div className="m-auto">
-                                            <Image
-                                                src={Firebase}
-                                                width="64px"
-                                                height="64px"
-                                                alt="/"
-                                            />
-                                        </div>
-                                        <div className="flex flex-col items-center justify-center">
-                                            <h3>Firebase</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-                                    <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                                        <div className="m-auto">
-                                            <Image
-                                                src={Github}
-                                                width="64px"
-                                                height="64px"
-                                                alt="/"
-                                            />
-                                        </div>
-                                        <div className="flex flex-col items-center justify-center">
-                                            <h3>Github</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -202,14 +171,14 @@ const Skills = () => {
                                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                                         <div className="m-auto">
                                             <Image
-                                                src={Html}
+                                                src={Python}
                                                 width="64px"
                                                 height="64px"
                                                 alt="/"
                                             />
                                         </div>
                                         <div className="flex flex-col items-center justify-center">
-                                            <h3>HTML</h3>
+                                            <h3>Python</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -217,14 +186,14 @@ const Skills = () => {
                                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                                         <div className="m-auto">
                                             <Image
-                                                src={Css}
+                                                src={Django}
                                                 width="64px"
                                                 height="64px"
                                                 alt="/"
                                             />
                                         </div>
                                         <div className="flex flex-col items-center justify-center">
-                                            <h3>CSS</h3>
+                                            <h3>Django</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -232,14 +201,14 @@ const Skills = () => {
                                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                                         <div className="m-auto">
                                             <Image
-                                                src={Javascript}
+                                                src={Flask}
                                                 width="64px"
                                                 height="64px"
                                                 alt="/"
                                             />
                                         </div>
                                         <div className="flex flex-col items-center justify-center">
-                                            <h3>JavaScript</h3>
+                                            <h3>Flask</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -247,14 +216,14 @@ const Skills = () => {
                                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                                         <div className="m-auto">
                                             <Image
-                                                src={ReactImg}
+                                                src={FastAPI}
                                                 width="64px"
                                                 height="64px"
                                                 alt="/"
                                             />
                                         </div>
                                         <div className="flex flex-col items-center justify-center">
-                                            <h3>React</h3>
+                                            <h3>FastAPI</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -262,14 +231,14 @@ const Skills = () => {
                                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                                         <div className="m-auto">
                                             <Image
-                                                src={Tailwind}
+                                                src={Postgres}
                                                 width="64px"
                                                 height="64px"
                                                 alt="/"
                                             />
                                         </div>
                                         <div className="flex flex-col items-center justify-center">
-                                            <h3>Tailwind</h3>
+                                            <h3>Postgres</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -292,14 +261,14 @@ const Skills = () => {
                                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                                         <div className="m-auto">
                                             <Image
-                                                src={Github}
+                                                src={Mongo}
                                                 width="64px"
                                                 height="64px"
                                                 alt="/"
                                             />
                                         </div>
                                         <div className="flex flex-col items-center justify-center">
-                                            <h3>Github</h3>
+                                            <h3>Mongo DB</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -307,14 +276,29 @@ const Skills = () => {
                                     <div className="grid grid-cols-2 gap-4 justify-center items-center">
                                         <div className="m-auto">
                                             <Image
-                                                src={NextJS}
+                                                src={Redis}
                                                 width="64px"
                                                 height="64px"
                                                 alt="/"
                                             />
                                         </div>
                                         <div className="flex flex-col items-center justify-center">
-                                            <h3>Next</h3>
+                                            <h3>Redis</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+                                    <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                                        <div className="m-auto">
+                                            <Image
+                                                src={Docker}
+                                                width="64px"
+                                                height="64px"
+                                                alt="/"
+                                            />
+                                        </div>
+                                        <div className="flex flex-col items-center justify-center">
+                                            <h3>Docker</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -323,42 +307,51 @@ const Skills = () => {
                         <div className="flex flex-col justify-center">
                             <div className="max-w-xl mb-6">
                                 <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                                    Frontend Technologies
+                                    Backend Technologies
                                 </h2>
                                 <p className="text-base text-gray-700 md:text-lg">
-                                    Sed ut perspiciatis unde omnis iste natus
-                                    error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa
-                                    quae. explicabo.
+                                    This are some of the backend technologies that I'm familiar with and have a good understanding and application on their use.
                                 </p>
                             </div>
                             <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
                                 <div className="p-2">
-                                    <div className="grid grid-cols-3 md:grid-cols-1">
+                                    <div className="grid grid-cols-3 md:grid-cols-2">
                                         <p className="text-gray-600 py-2 flex items-center">
                                             <RiRadioButtonFill className="pr-1" />{" "}
-                                            React
+                                            Python
                                         </p>
                                         <p className="text-gray-600 py-2 flex items-center">
                                             <RiRadioButtonFill className="pr-1" />{" "}
-                                            Tailwind
+                                            Django
                                         </p>
                                         
                                         <p className="text-gray-600 py-2 flex items-center">
                                             <RiRadioButtonFill className="pr-1" />{" "}
-                                            Javascript
+                                            Flask
                                         </p>
                                         <p className="text-gray-600 py-2 flex items-center">
                                             <RiRadioButtonFill className="pr-1" />{" "}
-                                            Firebase
+                                            Fast API
                                         </p>
                                         <p className="text-gray-600 py-2 flex items-center">
                                             <RiRadioButtonFill className="pr-1" />{" "}
-                                            Google API
+                                            Postgres
                                         </p>
                                         <p className="text-gray-600 py-2 flex items-center">
                                             <RiRadioButtonFill className="pr-1" />{" "}
-                                            Zillow API
+                                            Redis
+                                        </p>
+                                        <p className="text-gray-600 py-2 flex items-center">
+                                            <RiRadioButtonFill className="pr-1" />{" "}
+                                            Monog DB
+                                        </p>
+                                        <p className="text-gray-600 py-2 flex items-center">
+                                            <RiRadioButtonFill className="pr-1" />{" "}
+                                            Docker
+                                        </p>
+                                        <p className="text-gray-600 py-2 flex items-center">
+                                            <RiRadioButtonFill className="pr-1" />{" "}
+                                            AWS
                                         </p>
                                     </div>
                                 </div>
