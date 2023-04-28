@@ -27,7 +27,7 @@ export default function Home() {
     {/* <Blog /> */}
     {/* <Test1 /> */}
     {/* <Blog2 /> */}
-    <Blog3 />
+    {/* <Blog3 /> */}
     
     {/* <Timeline /> */}
     <Projects />
