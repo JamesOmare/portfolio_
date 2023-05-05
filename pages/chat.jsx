@@ -27,15 +27,9 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router DOM&quot;
-            package. This application was built using the Coin Gecko API.
+            I built this app to demonstrate knowledge working in python flask, javascript and websockets. It allows users
+            to log into chatrooms and communicate since WebSockets maintains a persistent connection between 
+            the client and server, allowing for real-time communication.
           </p>
           <a
             href='https://github.com/JamesOmare/Flask_Chat_Application'
