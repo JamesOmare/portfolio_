@@ -28,7 +28,7 @@ const property = () => {
           <h2>Overview</h2>
           <p>
             This app was built using Python Flask and is hosted on Render and uses Postgres database. Users
-            are able buy and sell freelaance accounts securely on the platform.
+            are able buy and sell freelance accounts securely on the platform.
           </p>
          
           <a
