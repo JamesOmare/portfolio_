@@ -37,7 +37,7 @@ const Contact = () => {
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  <a
+                  {/* <a
                     href='https://www.linkedin.com/in/james-omare-39402023a/'
                     target='_blank'
                     rel='noreferrer'
@@ -45,7 +45,7 @@ const Contact = () => {
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
-                  </a>
+                  </a> */}
                   <a
                     href='https://github.com/JamesOmare'
                     target='_blank'
@@ -55,15 +55,27 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
-                  <Link href='/resume'>
+                  
+                  <Link href="mailto:jamesomare177@gmail.com">
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <AiOutlineMail />
+                    </div>
+                  </Link>
+                  
+                  <a
+                    href='https://flowcv.com/resume/328gjoiqp3'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <BsFillPersonLinesFill />
+                      </div>
+                  </a>
+                  {/* <Link href='/resume'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                       </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
