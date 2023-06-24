@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import chatImg from '../public/assets/projects/WhatsChatt.png';
 import bushwritersImg from '../public/assets/projects/BushWriters1.png'
+import storeImg from '../public/assets/projects/Store.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -25,6 +26,13 @@ const Projects = () => {
             backgroundImg={chatImg}
             projectUrl='/chat'
             tech='Flask Javascript'
+
+          />
+          <ProjectItem
+            title='Multivendor Store'
+            backgroundImg={storeImg}
+            projectUrl='/store'
+            tech='Django Javascript Tailwind, Postgres'
 
           />
           {/* <ProjectItem
