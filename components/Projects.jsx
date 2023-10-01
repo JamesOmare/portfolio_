@@ -5,6 +5,8 @@ import chatImg from '../public/assets/projects/WhatsChatt.png';
 import bushwritersImg from '../public/assets/projects/BushWriters1.png'
 import storeImg from '../public/assets/projects/Store.png'
 import ProjectItem from './ProjectItem';
+import BeannsoftsImg from '../public/assets/projects/Beannsofts.png'
+import IntasefImg from '../public/assets/projects/Intasef.png'
 
 const Projects = () => {
   return (
@@ -15,6 +17,19 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+        <ProjectItem
+            title='An Online Escrow Platform'
+            backgroundImg={IntasefImg}
+            projectUrl='/escrow'
+            tech='Flask, Javascript, Postgres, Redis, Tailwind'
+          />
+          <ProjectItem
+            title='A Crypto Trading Platform'
+            backgroundImg={BeannsoftsImg}
+            projectUrl='/crypto'
+            tech='Flask Vue'
+
+          />
           <ProjectItem
             title='Freelance Account Marketplace'
             backgroundImg={bushwritersImg}
