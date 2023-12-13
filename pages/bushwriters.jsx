@@ -32,7 +32,7 @@ const property = () => {
           </p>
          
           <a
-            href='https://bushwriters.com/'
+            href='www.bushwriters.com/'
             target='_blank'
             rel='noreferrer'
           >
